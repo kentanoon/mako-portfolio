@@ -109,15 +109,6 @@ export const studioPhotos: Photo[] = [
     category: "studio",
     year: 2025,
   },
-  {
-    id: "st-13",
-    src: "https://stat.ameba.jp/user_images/20250522/11/mako-beautyphoto/e5/e5/j/o0575057615600500235.jpg?caw=800",
-    alt: "スタジオポートレート",
-    width: 575,
-    height: 576,
-    category: "studio",
-    year: 2025,
-  },
 ];
 
 export const streetPhotos: Photo[] = [
@@ -204,15 +195,6 @@ export const streetPhotos: Photo[] = [
     alt: "プロフィール撮影",
     width: 894,
     height: 672,
-    category: "street",
-    year: 2025,
-  },
-  {
-    id: "sw-10",
-    src: "https://stat.ameba.jp/user_images/20251226/17/mako-beautyphoto/af/c8/j/o0870087015734160395.jpg?caw=800",
-    alt: "プロフィール撮影",
-    width: 870,
-    height: 870,
     category: "street",
     year: 2025,
   },
