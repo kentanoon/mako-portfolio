@@ -17,12 +17,12 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
           {/* Portrait */}
           <FadeIn direction="none">
-            <div className="relative aspect-[3/4] overflow-hidden">
+            <div className="relative aspect-[16/9] overflow-hidden">
               <Image
                 src="/photos/profile.jpg"
                 alt="写真家 Mako"
                 fill
-                className="object-cover object-top"
+                className="object-cover object-center"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
               />
