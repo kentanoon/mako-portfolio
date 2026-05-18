@@ -4,7 +4,7 @@ import { heroPhoto } from "@/data/photos";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[600px] overflow-hidden">
+    <section className="relative h-[60vw] min-h-[400px] md:h-screen md:min-h-[600px] overflow-hidden">
       <Image
         src={heroPhoto.src}
         alt={heroPhoto.alt}
